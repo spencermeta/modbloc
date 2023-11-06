@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 import Image from 'next/image';
 
-
 const InsightCard = (props) => (
   <motion.div variants={fadeIn("up", "spring", props.index * 0.5, 1)} className="flex md:flex-row flex-col gap-4">
     <Image src={props.imgUrl} alt="planeta1" className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover" />
