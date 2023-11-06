@@ -6,7 +6,6 @@ import { navVariants } from "../utils/motion";
 import menu from "../public/menu.svg"
 import Image from 'next/image';
 
-
 const Navbar = () => (
   <motion.nav variants={navVariants} initial="hidden" whileInView="show" className={`${styles.xPaddings} py-8 relative`}>
     <div className="absolute w-[50%] inset-0 gradient-01" />
