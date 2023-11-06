@@ -1,3 +1,4 @@
+/*eslint-disable */
 import Head from 'next/head';
 
 import '../styles/globals.css';
@@ -5,7 +6,7 @@ import '../styles/globals.css';
 const MyApp = ({ Component, pageProps }) => (
   <>
     <Head>
-      <title>Binz</title>
+      <title>Jobz</title>
       <meta 
       name='viewport' 
       content='width=device-width, initial-scale=1' />
@@ -20,3 +21,4 @@ const MyApp = ({ Component, pageProps }) => (
 );
 
 export default MyApp;
+/*eslint-enable */
