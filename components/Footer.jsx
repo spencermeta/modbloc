@@ -5,6 +5,7 @@ import { socials } from "../constants";
 
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
+import Image from 'next/image';
 
 const Footer = () => (
   <motion.footer variants={footerVariants} initial="hidden" whileInView="show" className={`${styles.xPaddings} py-8 relative`}>
@@ -27,7 +28,7 @@ const Footer = () => (
 
           <div className="flex gap-4">
             {socials.map((social) => (
-              <img key={social.name} src={social.url} alt={social.name} className="w-[24px] h-[24px] object-contain cursor-pointer" />
+              <Image key={social.name} src={social.url} alt={social.name} className="w-[24px] h-[24px] object-contain cursor-pointer" />
             ))}
           </div>
         </div>

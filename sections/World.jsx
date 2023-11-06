@@ -6,6 +6,8 @@ import styles from "../styles";
 
 import { TitleText, TypingText } from "../components";
 import { staggerContainer, fadeIn } from "../utils/motion";
+import Image from 'next/image';
+
 
 const World = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -20,7 +22,7 @@ const World = () => (
       <TitleText title={<>Video de como funciona</>} textStyles="text-center" />
 
       <motion.div variants={fadeIn("up", "tween", 0.3, 1)} className="relative  mt-[68px]  flex w-full h0 [550px] ">
-        <img src="/video.png" alt="map" className="w-full  h-full object-cover" />
+        <Image src="/video.png" alt="map" className="w-full  h-full object-cover" />
       </motion.div>
     </motion.div>
   </section>

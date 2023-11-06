@@ -2,9 +2,11 @@
 
 import { motion } from "framer-motion";
 import styles from "../styles";
-import { newFeatures } from "../constants";
-import { NewFeatures, TitleText, TypingText } from "../components";
+import { TitleText, TypingText } from "../components";
 import { planetVariants, staggerContainer, fadeIn } from "../utils/motion";
+import Image from 'next/image';
+
+
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -25,7 +27,7 @@ const WhatsNew = () => (
         </div> */}
       </motion.div>
       <motion.div variants={planetVariants("right")} className={`flex-1 ${styles.flexCenter}`}>
-        <img src="/algorand_bc.png" alt="algo" className="w-[90%] h-[90%] object-contain" />
+        <Image src="/algorand_bc.png" alt="algo" className="w-[90%] h-[90%] object-contain" />
       </motion.div>
     </motion.div>
     <h1 className="text-red-600 border">SE PUEDEN AGREGAR MAS COSAS A LA LISTA</h1>
