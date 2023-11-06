@@ -1,4 +1,4 @@
-/*eslint-disable */
+
 import { Footer, Navbar } from "../components";
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from "../sections";
 
@@ -27,4 +27,3 @@ const Page = () => (
 );
 
 export default Page;
-/*eslint-enable */

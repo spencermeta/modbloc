@@ -1,4 +1,4 @@
-/*eslint-disable */
+
 import Head from 'next/head';
 
 import '../styles/globals.css';
@@ -21,4 +21,3 @@ const MyApp = ({ Component, pageProps }) => (
 );
 
 export default MyApp;
-/*eslint-enable */
