@@ -17,15 +17,14 @@ const About = () => (
     >
       <TypingText title="| Que es Jobz ?" textStyles="text-center" />
       <motion.p variants={fadeIn("up", "tween", 0.2, 1)} className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white">
-        <span className="font-extrabold text-white">Jobz</span> es una innovadora aplicación diseñada para ayudar a los creadores de contenido de
-        streaming a maximizar sus ingresos mientras comparten su pasión con su audiencia en tiempo real. Con Jobz, puedes convertir tu tiempo de
-        streaming en una fuente de ingresos constante y sostenible.
-        <span className="font-extrabold text-white">En Jobz, los streamers tienen la posibilidad de ganar dinero en tiempo real</span> mientras se
-        conectan con sus seguidores. Los espectadores pueden expresar su apoyo enviando donaciones y regalos virtuales directamente durante las
-        transmisiones, creando una experiencia inmediata y gratificante. Además, los creadores pueden cultivar una comunidad leal y comprometida
-        ofreciendo suscripciones a sus canales, que incluyen ventajas exclusivas como emoticonos personalizados, insignias de suscriptores y acceso a
-        contenido premium. Los streamers pueden establecer sus propios <span className="font-extrabold text-white"> precios y tarifas </span> precios
-        y tarifas para servicios personalizados en un mercado virtual en la aplicación
+        <span className="font-extrabold text-white">Jobz</span> es una plataforma basada en{" "}
+        <span className="font-extrabold text-white">tecnología blockchain</span> que permite a profesionales de diferentes industrias, como abogados,
+        desarrolladores, profesores particulares, psicólogos, y más,
+        <span className="font-extrabold text-white">ofrecer sus servicios de una manera más flexible y transparente.</span>
+        Los usuarios pueden contratar servicios y realizar pagos de manera segura a través de nuestra plataforma. Nuestra tecnología encripta todas
+        las transacciones, lo que garantiza la
+        <span className="font-extrabold text-white">seguridad</span>
+        de los fondos y la integridad de los registros.
       </motion.p>
       <motion.img variants={fadeIn("up", "tween", 0.3, 1)} src="/arrow-down.svg" alt="arrow" className="w-[18px] h-[28px] object-contain mt-[28px]" />
     </motion.div>

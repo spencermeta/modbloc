@@ -19,18 +19,18 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="Dejo esta Seccion?" textStyles="text-center" />
+        <TypingText title="Sobre Nosotros" textStyles="text-center" />
         <TitleText
           title={
             <>
-              Que se puede
+              Quienes
               <br className="md:block hidden" />
-              explicar Aqui?
+              Somos?
             </>
           }
           textStyles="text-center"
         />
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        <div className="mt-[20px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard key={world.id} {...world} index={index} active={active} handleClick={setActive} />
           ))}
