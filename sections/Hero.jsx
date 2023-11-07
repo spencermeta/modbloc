@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion";
-import banner from "../public/jobz_banner.jpg";
+import banner from "../public/honor_estudiando.png";
 import Image from "next/image";
 
 const Hero = () => (

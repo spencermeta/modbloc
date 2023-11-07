@@ -4,8 +4,9 @@ import { motion } from "framer-motion";
 import styles from "../styles";
 import { TitleText, TypingText } from "../components";
 import { planetVariants, staggerContainer, fadeIn } from "../utils/motion";
-import { newFeatures } from "../constants";
-import { NewFeatures } from "../components";
+import { newFeaturesss } from "../constants";
+import { StartSteps } from "../components";
+import conexion from "../public/conexion.png";
 import Image from "next/image";
 
 const WhatsNew = () => (
@@ -18,16 +19,16 @@ const WhatsNew = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div variants={fadeIn("right", "tween", 0.2, 1)} className="flex-[0.75] flex justify-center flex-col">
-        <TypingText title="Segura" />
-        <TitleText title={<>Conexión con Plataformas de Reuniones</>} />
-        <div className="mt-[48px] flex flex-wrap justify-between gap-[24px] ">
-          {newFeatures.map((feature) => (
-            <NewFeatures key={feature.title} {...feature} />
+        <TypingText title="Conectado" />
+        <TitleText title={<>Conexión con Plataformas</>} />
+        <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px] ">
+          {newFeaturesss.map((feature, index) => (
+            <StartSteps key={feature} number={index + 1} text={feature} />
           ))}
         </div>
       </motion.div>
       <motion.div variants={planetVariants("right")} className={`flex-1 ${styles.flexCenter}`}>
-        {/* <Image src="/algorand_bc.png" alt="algo" className="w-[90%] h-[90%] object-contain" /> */}
+        <Image src={conexion} alt="conexion" className="w-[90%] h-[90%] object-contain" />
       </motion.div>
     </motion.div>
   </section>

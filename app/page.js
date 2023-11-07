@@ -1,5 +1,9 @@
 import { Footer, Navbar } from "../components";
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from "../sections";
+import seguridad from "../public/seguridad.png";
+import tiempo from "../public/tiempo.png";
+import { startingFeaturess } from "../constants";
+import { startingFeatures } from "../constants";
 
 const Page = () => (
   <div className="bg-primary-black overflow-hidden">
@@ -9,11 +13,11 @@ const Page = () => (
       <About />
     </div>
     <div className="relative">
-      <GetStarted title={<>Seguridad y Privacidad</>} />
+      <GetStarted img={seguridad} alt="seguridad" title={<>Seguridad y Privacidad</>} sub="Resguardo" text={startingFeaturess} />
       <div className="gradient-03 z-0" />
       <WhatsNew />
       <div className="gradient-03 z-0" />
-      <GetStarted title={<>Control del Tiempo y Pago</>} />
+      <GetStarted img={tiempo} alt="tiempo" title={<>Control del Tiempo y Pago</>} sub="Autonomia" text={startingFeatures} />
     </div>
     <div className="relative">
       <Insights />

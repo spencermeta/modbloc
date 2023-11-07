@@ -22,23 +22,22 @@ export const exploreWorlds = [
   },
 ];
 
-export const startingFeatures = [
-  "Find a world that suits you and you want to enter",
-  "Enter the world by reading basmalah to be safe",
-  "No need to beat around the bush, just stay on the gas and have fun",
+export const startingFeaturess = [
+  "Seguridad: La tecnología blockchain asegura la protección de las transacciones.",
+  "Privacidad: Garantiza la confidencialidad de la información.",
+  "Encriptación: Los fondos quedan resguardados contra ataques cibernéticos.",
 ];
 
-export const newFeatures = [
-  {
-    imgUrl: "/vrpano.svg",
-    title: "A new world",
-    subtitle: "we have the latest update with new world for you to try never mind",
-  },
-  {
-    imgUrl: "/headset.svg",
-    title: "More realistic",
-    subtitle: "In the latest update, your eyes are narrow, making the world more realistic than ever",
-  },
+export const startingFeatures = [
+  "Control del Tiempo: Los clientes supervisan el tiempo del profesional.",
+  "Rastreo del Tiempo: Se permite un seguimiento preciso del tiempo dedicado.",
+  "Pago Justo: Se asegura la equidad en la compensación.",
+];
+
+export const newFeaturesss = [
+  "La integración de Jobz con plataformas de reuniones mejora la productividad al rastrear automáticamente el tiempo en reuniones virtuales.",
+  "Ofrece un registro preciso para facturación y toma de decisiones informadas.",
+  "Facilita la optimización del horario laboral al identificar patrones en el tiempo de reuniones.",
 ];
 
 export const insights = [
