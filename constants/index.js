@@ -1,21 +1,41 @@
+import ings1 from "../public/algorand_bc.png";
+import ings2 from "../public/ings2.png";
+import ings3 from "../public/ings3.png";
+import ings4 from "../public/ings4.png";
+import ings5 from "../public/ings5.png";
+import ings6 from "../public/ings6.png";
+import ings7 from "../public/ings7.png";
+import ings8 from "../public/ings8.png";
+import josue from "../public/josue.jpg";
+import josue_fondo from "../public/josue_fondo.jpg";
+
 export const exploreWorlds = [
+  // {
+  //   id: "world-1",
+  //   imgUrl: ings6,
+  //   title: "Misión",
+  //   explorerText:
+  //     "Facilitar el intercambio de servicios profesionales, permitiendo a los proveedores de servicios y sus clientes tener un mayor control sobre el tiempo dedicado y el pago por los servicios contratados.",
+  // },
   {
     id: "world-1",
-    imgUrl: "/planet-01.png",
-    title: "Misión",
+    imgUrl: josue_fondo,
+    imgAvatar: josue,
+    title: "Josue Lopez",
+    subtitle: "Web Developer",
     explorerText:
-      "Facilitar el intercambio de servicios profesionales, permitiendo a los proveedores de servicios y sus clientes tener un mayor control sobre el tiempo dedicado y el pago por los servicios contratados.",
+      "Programador full stack junior con un profundo interés en la tecnología blockchain. En constante búsqueda de conocimiento a través de la lectura y el desarrollo personal. Comprometido con la creación de soluciones tecnológicas innovadoras y apasionado por el aprendizaje constante en el mundo de la programación y la blockchain.",
   },
   {
     id: "world-2",
-    imgUrl: "/planet-02.png",
+    imgUrl: ings6,
     title: "Visión",
     explorerText:
       "Convertirnos en la plataforma líder a nivel global para el intercambio de servicios profesionales, ofreciendo una solución segura, eficiente y transparente que beneficie tanto a proveedores como a clientes.",
   },
   {
-    id: "world-2",
-    imgUrl: "/planet-02.png",
+    id: "world-3",
+    imgUrl: ings6,
     title: "Visión",
     explorerText:
       "Convertirnos en la plataforma líder a nivel global para el intercambio de servicios profesionales, ofreciendo una solución segura, eficiente y transparente que beneficie tanto a proveedores como a clientes.",
@@ -42,49 +62,49 @@ export const newFeaturesss = [
 
 export const insights = [
   {
-    imgUrl: "/pmv.png",
+    imgUrl: ings1,
     title: "Integración de Tecnología de Vanguardia",
     subtitle:
       "Nuestra integración con tecnologías de blockchain garantiza la seguridad y la inmutabilidad de las transacciones. Esto crea un ambiente de confianza para proveedores y clientes, lo que es fundamental para el éxito en el mercado.",
   },
   {
-    imgUrl: "/explicando.png",
+    imgUrl: ings2,
     title: "Educación y Promoción",
     subtitle:
       "La educación y la promoción de Jobz en la región desempeñarán un papel crucial en la cantidad de personas que se beneficien de la plataforma. Una estrategia efectiva de marketing y concienciación podría atraer a más usuarios.",
   },
   {
-    imgUrl: "/explicando.png",
+    imgUrl: ings3,
     title: "Desarrollo de la Plataforma",
     subtitle:
       "Invertiremos en el desarrollo y la mejora continua de la plataforma, garantizando una experiencia de usuario excepcional y la seguridad de las transacciones.",
   },
   {
-    imgUrl: "/equipo.png",
+    imgUrl: ings4,
     title: "Adquisición de Usuarios",
     subtitle:
       "Implementaremos estrategias de marketing en línea y alianzas con profesionales y empresas para atraer tanto a los clientes como a los proveedores de servicios.",
   },
   {
-    imgUrl: "/pmv.png",
+    imgUrl: ings5,
     title: "Desarrollo del Mercado",
     subtitle:
       "El mercado de servicios en línea está en constante crecimiento en Latinoamérica, y la adopción de tecnologías digitales ha aumentado en la región en los últimos años. A medida que más personas y empresas buscan servicios en línea, el potencial de beneficiarios de Jobz se amplía.",
   },
+  // {
+  //   imgUrl: ings6,
+  //   title: "Tarifas y Modelo de Negocio",
+  //   subtitle:
+  //     "Generaremos ingresos a través de comisiones por transacción. Cobraremos un porcentaje del 0.5% de la tarifa acordada entre el cliente y el profesional por cada servicio prestado.",
+  // },
+  // {
+  //   imgUrl: ings7,
+  //   title: "Flexibilidad en el Pago",
+  //   subtitle:
+  //     "Jobz permite a los clientes pagar por servicios de manera más precisa, lo que beneficia tanto a los proveedores como a los clientes al evitar malentendidos y disputas sobre el tiempo invertido.",
+  // },
   {
-    imgUrl: "/pmv.png",
-    title: "Tarifas y Modelo de Negocio",
-    subtitle:
-      "Generaremos ingresos a través de comisiones por transacción. Cobraremos un porcentaje del 0.5% de la tarifa acordada entre el cliente y el profesional por cada servicio prestado.",
-  },
-  {
-    imgUrl: "/pmv.png",
-    title: "Flexibilidad en el Pago",
-    subtitle:
-      "Jobz permite a los clientes pagar por servicios de manera más precisa, lo que beneficia tanto a los proveedores como a los clientes al evitar malentendidos y disputas sobre el tiempo invertido.",
-  },
-  {
-    imgUrl: "/pmv.png",
+    imgUrl: ings8,
     title: "Amplio Alcance y Diversidad de Servicios",
     subtitle:
       "Jobz tiene el potencial de abarcar una amplia variedad de servicios profesionales, desde abogados hasta desarrolladores y más. Esto amplía el alcance de nuestra plataforma.",
