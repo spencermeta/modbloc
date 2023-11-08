@@ -1,5 +1,5 @@
 import { Footer, Navbar } from "../components";
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from "../sections";
+import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew } from "../sections";
 import seguridad from "../public/seguridad.png";
 import tiempo from "../public/tiempo.png";
 import { startingFeaturess } from "../constants";
