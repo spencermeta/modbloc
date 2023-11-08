@@ -1,11 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { socials } from "../constants";
+// import { socials } from "../constants";
 
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
-import Image from "next/image";
+// import Image from "next/image";
 
 const Footer = () => (
   <motion.footer variants={footerVariants} initial="hidden" whileInView="show" className={`${styles.xPaddings} py-8 relative`}>
