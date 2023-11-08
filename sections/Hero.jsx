@@ -3,11 +3,11 @@
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion";
-import banner from "../public/honor_estudiando.png";
+import banner from "../public/banner_02.png";
 import Image from "next/image";
 
 const Hero = () => (
-  <section className={`${styles.yPaddings} sm:pl-16 pl-6 `}>
+  <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -21,8 +21,8 @@ const Hero = () => (
         </motion.h1>
       </div>
       <motion.div variants={slideIn("right", "tween", 0.2, 1)} className="relative w-full md:-mt-[20px] -mt-[12px]">
-        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
-        <Image src={banner} alt="cover" className="w-full sm:h-[500px] object-cover rounded-tl-[140px] z-10 relative" />
+        <div className="absolute w-full h-[200px]  rounded-tl-[140px] z-[0] -top-[30px] border bg-gradient-to-br from-gray-700 via-gray-900 to-black " />
+        <Image src={banner} alt="cover" className="w-full  sm:h-[500px] object-cover rounded-tl-[140px] z-10 relative" />
       </motion.div>
     </motion.div>
   </section>

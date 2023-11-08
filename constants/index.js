@@ -4,7 +4,6 @@ import ings3 from "../public/ings3.png";
 import ings4 from "../public/ings4.png";
 import ings5 from "../public/ings5.png";
 import ings6 from "../public/ings6.png";
-import ings7 from "../public/ings7.png";
 import ings8 from "../public/ings8.png";
 import josue from "../public/josue.jpg";
 import josue_fondo from "../public/josue_fondo.jpg";
@@ -22,21 +21,21 @@ export const exploreWorlds = [
     imgUrl: josue_fondo,
     imgAvatar: josue,
     title: "Josue Lopez",
-    subtitle: "Web Developer",
+    subtitle: "Full Stack Developer",
     explorerText:
       "Programador full stack junior con un profundo interés en la tecnología blockchain. En constante búsqueda de conocimiento a través de la lectura y el desarrollo personal. Comprometido con la creación de soluciones tecnológicas innovadoras y apasionado por el aprendizaje constante en el mundo de la programación y la blockchain.",
   },
   {
     id: "world-2",
     imgUrl: ings6,
-    title: "Visión",
+    title: "Nombre 2",
     explorerText:
       "Convertirnos en la plataforma líder a nivel global para el intercambio de servicios profesionales, ofreciendo una solución segura, eficiente y transparente que beneficie tanto a proveedores como a clientes.",
   },
   {
     id: "world-3",
     imgUrl: ings6,
-    title: "Visión",
+    title: "Nmbre 3",
     explorerText:
       "Convertirnos en la plataforma líder a nivel global para el intercambio de servicios profesionales, ofreciendo una solución segura, eficiente y transparente que beneficie tanto a proveedores como a clientes.",
   },
