@@ -5,6 +5,7 @@ import { TypingText } from "../components";
 import styles from "../styles";
 import { fadeIn, staggerContainer } from "../utils/motion";
 import arrow from "../public/arrow-down.svg";
+import Image from "next/image";
 
 const About = () => (
   <section className={`${styles.paddings} relative z-10 `}>
@@ -27,7 +28,9 @@ const About = () => (
         <span className="font-extrabold text-white">seguridad</span>
         de los fondos y la integridad de los registros.
       </motion.p>
-      <motion.img variants={fadeIn("up", "tween", 0.3, 1)} src={arrow} alt="arrow" className="w-[18px] h-[28px] object-contain mt-[28px]" />
+      <motion.div variants={fadeIn("up", "tween", 0.3, 1)} className="w-[18px] h-[28px] object-contain mt-[28px]">
+        <Image src={arrow} alt="arrow" className="w-[18px] h-[28px] object-contain mt-[28px]" />
+      </motion.div>
     </motion.div>
   </section>
 );

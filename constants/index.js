@@ -7,15 +7,28 @@ import ings6 from "../public/ings6.png";
 import ings8 from "../public/ings8.png";
 import josue from "../public/josue.jpg";
 import josue_fondo from "../public/josue_fondo.jpg";
+import cabro1_fondo from "../public/user1.png";
+import cabro2_fondo from "../public/jhos.png";
 
 export const exploreWorlds = [
-  // {
-  //   id: "world-1",
-  //   imgUrl: ings6,
-  //   title: "Misión",
-  //   explorerText:
-  //     "Facilitar el intercambio de servicios profesionales, permitiendo a los proveedores de servicios y sus clientes tener un mayor control sobre el tiempo dedicado y el pago por los servicios contratados.",
-  // },
+  {
+    id: "world-2",
+    imgUrl: josue_fondo,
+    imgAvatar: cabro1_fondo,
+    title: "Nicolas Moreno",
+    subtitle: "CEO de JOBZ",
+    explorerText:
+      "Con una destacada trayectoria en emprendimientos tecnológicos, mi experiencia se centra en la sinergia estratégica entre la web 2.0 y la web 3.0. Aporto habilidades probadas en la gestión integral de proyectos innovadores, facilitando la transición hacia nuevos paradigmas tecnológicos.",
+  },
+  {
+    id: "world-3",
+    imgUrl: josue_fondo,
+    imgAvatar: cabro2_fondo,
+    title: "Joseph Sanchez",
+    subtitle: "CMO de JOBZ",
+    explorerText:
+      "Con una amplia experiencia en la creación de imágenes de marca sólidas y en el desarrollo de comunidades, he desempeñado un papel integral en el establecimiento y fortalecimiento de la presencia de marcas. Mi enfoque se centra en construir conexiones significativas con comunidades, impulsando la participación y la lealtad a lo largo del tiempo.",
+  },
   {
     id: "world-1",
     imgUrl: josue_fondo,
@@ -24,20 +37,6 @@ export const exploreWorlds = [
     subtitle: "Full Stack Developer",
     explorerText:
       "Programador full stack junior con un profundo interés en la tecnología blockchain. En constante búsqueda de conocimiento a través de la lectura y el desarrollo personal. Comprometido con la creación de soluciones tecnológicas innovadoras y apasionado por el aprendizaje constante en el mundo de la programación y la blockchain.",
-  },
-  {
-    id: "world-2",
-    imgUrl: ings6,
-    title: "Nombre 2",
-    explorerText:
-      "Convertirnos en la plataforma líder a nivel global para el intercambio de servicios profesionales, ofreciendo una solución segura, eficiente y transparente que beneficie tanto a proveedores como a clientes.",
-  },
-  {
-    id: "world-3",
-    imgUrl: ings6,
-    title: "Nmbre 3",
-    explorerText:
-      "Convertirnos en la plataforma líder a nivel global para el intercambio de servicios profesionales, ofreciendo una solución segura, eficiente y transparente que beneficie tanto a proveedores como a clientes.",
   },
 ];
 
