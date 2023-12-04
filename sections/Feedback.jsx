@@ -7,8 +7,8 @@ import { TitleText, TypingText } from "../components";
 
 const Feedback = () => (
   <section className={`${styles.paddings}`}>
-    <TypingText title="Que queremos?" textStyles="text-center" />
-    <TitleText title={<>Que nos Motiva?</>} textStyles="text-center mb-[25px] " />
+    <TypingText title="What we want?" textStyles="text-center" />
+    <TitleText title={<>What Motivates Us?</>} textStyles="text-center mb-[25px] " />
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -22,12 +22,12 @@ const Feedback = () => (
       >
         <div className="feedback-gradient" />
         <div>
-          <h4 className=" font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">Mision</h4>
+          <h4 className=" font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">Mission</h4>
         </div>
         <p className=" mt-[10px] font-normal sm:text-[24px] text-[18px] sm:leading-[40.6px] leading-[30.6px] text-white">
-          Facilitar el intercambio de servicios profesionales, permitiendo a los proveedores de servicios y sus clientes tener un mayor control sobre
-          el tiempo dedicado y el pago por los servicios contratados, al tiempo que democratizamos el acceso a la educación y el estudio, brindando
-          oportunidades de aprendizaje y desarrollo a un público más amplio.
+          Facilitate the exchange of professional services, allowing service providers and their clients to have greater control over the time spent and payment for contracted services, while democratizing access to education and study.
+          time spent and payment for contracted services, while democratizing access to education and study, providing learning and development opportunities to a wider audience.
+          learning and development opportunities to a wider audience..
         </p>
       </motion.div>
       <motion.div
@@ -39,9 +39,9 @@ const Feedback = () => (
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">Vision</h4>
         </div>
         <p className="mt-[10px] font-normal sm:text-[24px] text-[18px] sm:leading-[40.6px] leading-[30.6px] text-white">
-          Nuestra visión es convertirnos en la plataforma líder a nivel global en servicios profesionales, ofreciendo una solución segura, eficiente y
-          transparente que beneficie tanto a proveedores como a clientes, al tiempo que promovemos activamente la equidad y la democratización en el
-          ámbito profesional.
+          Our vision is to become the leading global platform for professional services, offering a secure, efficient and transparent solution that benefits both suppliers and clients, while actively promoting fairness and democratization in the
+          solution that benefits both providers and clients, while actively promoting fairness and democratization in the professional arena.
+          professional environment.
         </p>
       </motion.div>
     </motion.div>

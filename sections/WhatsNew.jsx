@@ -19,8 +19,8 @@ const WhatsNew = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div variants={fadeIn("right", "tween", 0.2, 1)} className="flex-[0.75] flex justify-center flex-col">
-        <TypingText title="Conectado" />
-        <TitleText title={<>Conexión con Plataformas</>} />
+        <TypingText title="Connected" />
+        <TitleText title={<>Connection with Platforms</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px] ">
           {newFeaturesss.map((feature, index) => (
             <StartSteps key={feature} number={index + 1} text={feature} />

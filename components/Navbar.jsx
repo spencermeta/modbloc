@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import styles from "../styles";
 import { navVariants } from "../utils/motion";
 import menu from "../public/menu.svg";
-import logo from "../public/logo_jobz.png";
+import logo from "../public/logo.png";
 import Image from "next/image";
 
 const Navbar = () => (

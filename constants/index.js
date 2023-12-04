@@ -5,89 +5,89 @@ import ings4 from "../public/ings4.png";
 import ings5 from "../public/ings5.png";
 import ings6 from "../public/ings6.png";
 import ings8 from "../public/ings8.png";
-import josue from "../public/josue.jpg";
+
 import josue_fondo from "../public/josue_fondo.jpg";
-import cabro1_fondo from "../public/user1.png";
-import cabro2_fondo from "../public/jhos.png";
+import spencer from "../public/spencer.jpg";
+
 
 export const exploreWorlds = [
   {
     id: "world-2",
     imgUrl: josue_fondo,
-    imgAvatar: cabro1_fondo,
-    title: "Nicolas Moreno",
-    subtitle: "CEO de JOBZ",
+    imgAvatar: spencer,
+    title: "Spencer su",
+    subtitle: "CEO of Ziyou",
     explorerText:
-      "Con una destacada trayectoria en emprendimientos tecnológicos, mi experiencia se centra en la sinergia estratégica entre la web 2.0 y la web 3.0. Aporto habilidades probadas en la gestión integral de proyectos innovadores, facilitando la transición hacia nuevos paradigmas tecnológicos.",
+      "With an outstanding track record in technological ventures, my experience focuses on the strategic synergy between web 2.0 and web 3.0. I bring proven skills in the integral management of innovative projects, facilitating the transition to new technological paradigms.",
   },
   {
     id: "world-3",
     imgUrl: josue_fondo,
-    imgAvatar: cabro2_fondo,
-    title: "Joseph Sanchez",
-    subtitle: "CMO de JOBZ",
+    imgAvatar: "",
+    title: "Tina Sun",
+    subtitle: "CMO of Ziyou",
     explorerText:
-      "Con una amplia experiencia en la creación de imágenes de marca sólidas y en el desarrollo de comunidades, he desempeñado un papel integral en el establecimiento y fortalecimiento de la presencia de marcas. Mi enfoque se centra en construir conexiones significativas con comunidades, impulsando la participación y la lealtad a lo largo del tiempo.",
+      "With extensive experience in building strong brand images and developing communities, I have played an integral role in establishing and strengthening brand presence. My focus is on building meaningful connections with communities, driving engagement and loyalty over time.",
   },
   {
     id: "world-1",
     imgUrl: josue_fondo,
-    imgAvatar: josue,
-    title: "Josue Lopez",
+    imgAvatar: "",
+    title: "Su shan",
     subtitle: "Full Stack Developer",
     explorerText:
-      "Programador full stack junior con un profundo interés en la tecnología blockchain. En constante búsqueda de conocimiento a través de la lectura y el desarrollo personal. Comprometido con la creación de soluciones tecnológicas innovadoras y apasionado por el aprendizaje constante en el mundo de la programación y la blockchain.",
+      "Junior full stack programmer with a deep interest in blockchain technology. In constant pursuit of knowledge through reading and personal development. Committed to creating innovative technology solutions and passionate about constant learning in the world of programming and blockchain.",
   },
 ];
 
 export const startingFeaturess = [
-  "Seguridad: La tecnología blockchain asegura la protección de las transacciones.",
-  "Privacidad: Garantiza la confidencialidad de la información.",
-  "Encriptación: Los fondos quedan resguardados contra ataques cibernéticos.",
+  "Security: Blockchain technology ensures transaction protection.",
+  "Privacy: Guarantees the confidentiality of information.",
+  "Encryption: Funds are safeguarded against cyber attacks.",
 ];
 
 export const startingFeatures = [
-  "Control del Tiempo: Los clientes supervisan el tiempo del profesional.",
-  "Rastreo del Tiempo: Se permite un seguimiento preciso del tiempo dedicado.",
-  "Pago Justo: Se asegura la equidad en la compensación.",
+  "Time Control: Clients monitor the professional's time.",
+  "Time Tracking: Accurate tracking of time spent is enabled.",
+  "Pago Justo: Fair Payment.",
 ];
 
 export const newFeaturesss = [
-  "La integración de Jobz con plataformas de reuniones mejora la productividad al rastrear automáticamente el tiempo en reuniones virtuales.",
-  "Ofrece un registro preciso para facturación y toma de decisiones informadas.",
-  "Facilita la optimización del horario laboral al identificar patrones en el tiempo de reuniones.",
+  "Ziyou integration with meeting platforms improves productivity by automatically tracking time in virtual meetings.",
+  "Provides an accurate record for billing and informed decision making.",
+  "Facilitates work schedule optimization by identifying meeting time patterns.",
 ];
 
 export const insights = [
   {
     imgUrl: ings1,
-    title: "Integración de Tecnología de Vanguardia",
+    title: "State-of-the-Art Technology Integration",
     subtitle:
-      "Nuestra integración con tecnologías de blockchain garantiza la seguridad y la inmutabilidad de las transacciones. Esto crea un ambiente de confianza para proveedores y clientes, lo que es fundamental para el éxito en el mercado.",
+      "Our integration with blockchain technologies ensures the security and immutability of transactions. This creates an environment of trust for suppliers and customers, which is critical for success in the marketplace.",
   },
   {
     imgUrl: ings2,
-    title: "Educación y Promoción",
+    title: "Education and Promotion",
     subtitle:
-      "La educación y la promoción de Jobz en la región desempeñarán un papel crucial en la cantidad de personas que se beneficien de la plataforma. Una estrategia efectiva de marketing y concienciación podría atraer a más usuarios.",
+      "Education and promotion of Jobz in the region will play a crucial role in how many people benefit from the platform. An effective marketing and awareness strategy could attract more users.",
   },
   {
     imgUrl: ings3,
-    title: "Desarrollo de la Plataforma",
+    title: "Platform Development",
     subtitle:
-      "Invertiremos en el desarrollo y la mejora continua de la plataforma, garantizando una experiencia de usuario excepcional y la seguridad de las transacciones.",
+      "We will invest in the development and continuous improvement of the platform, ensuring an exceptional user experience and transaction security.",
   },
   {
     imgUrl: ings4,
-    title: "Adquisición de Usuarios",
+    title: "User Acquisition",
     subtitle:
-      "Implementaremos estrategias de marketing en línea y alianzas con profesionales y empresas para atraer tanto a los clientes como a los proveedores de servicios.",
+      "We will implement online marketing strategies and partnerships with professionals and companies to attract both customers and service providers.",
   },
   {
     imgUrl: ings5,
-    title: "Desarrollo del Mercado",
+    title: "Market Development",
     subtitle:
-      "El mercado de servicios en línea está en constante crecimiento en Latinoamérica, y la adopción de tecnologías digitales ha aumentado en la región en los últimos años. A medida que más personas y empresas buscan servicios en línea, el potencial de beneficiarios de Jobz se amplía.",
+      "The market for online services is steadily growing in Latin America, and the adoption of digital technologies has increased in the region in recent years. As more individuals and companies seek online services, the potential for Jobz beneficiaries is expanding.",
   },
   // {
   //   imgUrl: ings6,
@@ -103,9 +103,9 @@ export const insights = [
   // },
   {
     imgUrl: ings8,
-    title: "Amplio Alcance y Diversidad de Servicios",
+    title: "Broad Scope and Diversity of Services",
     subtitle:
-      "Jobz tiene el potencial de abarcar una amplia variedad de servicios profesionales, desde abogados hasta desarrolladores y más. Esto amplía el alcance de nuestra plataforma.",
+      "Ziyou has the potential to encompass a wide variety of professional services, from lawyers to developers and more. This broadens the scope of our platform.",
   },
 ];
 

@@ -17,16 +17,16 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| Que es Jobz ?" textStyles="text-center" />
+      <TypingText title="| What is Ziyou ?" textStyles="text-center" />
       <motion.p variants={fadeIn("up", "tween", 0.2, 1)} className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white">
-        <span className="font-extrabold text-white">Jobz</span> es una plataforma basada en{" "}
-        <span className="font-extrabold text-white">tecnología blockchain</span> que permite a profesionales de diferentes industrias, como abogados,
-        desarrolladores, profesores particulares, psicólogos, y más,
-        <span className="font-extrabold text-white">ofrecer sus servicios de una manera más flexible y transparente.</span>
-        Los usuarios pueden contratar servicios y realizar pagos de manera segura a través de nuestra plataforma. Nuestra tecnología encripta todas
-        las transacciones, lo que garantiza la
-        <span className="font-extrabold text-white">seguridad</span>
-        de los fondos y la integridad de los registros.
+        <span className="font-extrabold text-white">Ziyou</span> is a platform based on{" "}
+        <span className="font-extrabold text-white">blockchain technology</span> that allows professionals from different industries, such as lawyers,
+          developers, private teachers, psychologists, and more,
+        <span className="font-extrabold text-white">to offer its services in a more flexible and transparent manner.</span>
+          Users can contract services and make payments securely through our platform. Our technology encrypts all
+          transactions, which guarantees the
+        <span className="font-extrabold text-white"> security </span>
+          of funds and the integrity of records.
       </motion.p>
       <motion.div variants={fadeIn("up", "tween", 0.3, 1)} className="w-[18px] h-[28px] object-contain mt-[28px]">
         <Image src={arrow} alt="arrow" className="w-[18px] h-[28px] object-contain mt-[28px]" />
