@@ -18,7 +18,7 @@ const Hero = () => (
     >
       <div className="flex justify-center items-center flex-col relative z-10 mb-5">
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-            Monetize your Passion
+            Modularizing your blockchain
         </motion.h1>
       </div>
       <motion.div variants={slideIn("right", "tween", 0.2, 1)} className="relative w-full md:-mt-[20px] -mt-[12px]">
