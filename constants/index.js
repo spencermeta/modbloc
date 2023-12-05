@@ -69,7 +69,7 @@ export const insights = [
     imgUrl: ings2,
     title: "Education and Promotion",
     subtitle:
-      "Education and promotion of Jobz in the region will play a crucial role in how many people benefit from the platform. An effective marketing and awareness strategy could attract more users.",
+      "Education and promotion of Ziyou in the region will play a crucial role in how many people benefit from the platform. An effective marketing and awareness strategy could attract more users.",
   },
   {
     imgUrl: ings3,
@@ -87,7 +87,7 @@ export const insights = [
     imgUrl: ings5,
     title: "Market Development",
     subtitle:
-      "The market for online services is steadily growing in Latin America, and the adoption of digital technologies has increased in the region in recent years. As more individuals and companies seek online services, the potential for Jobz beneficiaries is expanding.",
+      "The market for online services is steadily growing in Latin America, and the adoption of digital technologies has increased in the region in recent years. As more individuals and companies seek online services, the potential for Ziyou beneficiaries is expanding.",
   },
   // {
   //   imgUrl: ings6,
@@ -99,7 +99,7 @@ export const insights = [
   //   imgUrl: ings7,
   //   title: "Flexibilidad en el Pago",
   //   subtitle:
-  //     "Jobz permite a los clientes pagar por servicios de manera más precisa, lo que beneficia tanto a los proveedores como a los clientes al evitar malentendidos y disputas sobre el tiempo invertido.",
+  //     "Ziyou permite a los clientes pagar por servicios de manera más precisa, lo que beneficia tanto a los proveedores como a los clientes al evitar malentendidos y disputas sobre el tiempo invertido.",
   // },
   {
     imgUrl: ings8,
