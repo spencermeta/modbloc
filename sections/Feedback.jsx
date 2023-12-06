@@ -25,9 +25,7 @@ const Feedback = () => (
           <h4 className=" font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">Mission</h4>
         </div>
         <p className=" mt-[10px] font-normal sm:text-[24px] text-[18px] sm:leading-[40.6px] leading-[30.6px] text-white">
-          Facilitate the exchange of professional services, allowing service providers and their clients to have greater control over the time spent and payment for contracted services, while democratizing access to education and study.
-          time spent and payment for contracted services, while democratizing access to education and study, providing learning and development opportunities to a wider audience.
-          learning and development opportunities to a wider audience..
+          Modular blockchains are seen as a way to address some of the challenges associated with traditional monolithic blockchain architectures. However, it's essential to strike a balance between modularity and system complexity, ensuring that the benefits of flexibility and customization do not compromise overall system integrity and security. Various blockchain projects and platforms are exploring and implementing modular architectures to achieve these objectives.
         </p>
       </motion.div>
       <motion.div

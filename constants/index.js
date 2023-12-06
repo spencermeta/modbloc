@@ -41,21 +41,21 @@ export const exploreWorlds = [
 ];
 
 export const startingFeaturess = [
-  "Security: Blockchain technology ensures transaction protection.",
-  "Privacy: Guarantees the confidentiality of information.",
-  "Encryption: Funds are safeguarded against cyber attacks.",
+  "Modular Architecture: include consensus mechanisms, smart contract engines, storage systems, networking protocols, and more.",
+  "Interoperability: facilitate communication and data exchange between various blockchain networks.",
+  "Scalability:  each module can be optimized independently.",
 ];
 
 export const startingFeatures = [
-  "Time Control: Clients monitor the professional's time.",
-  "Time Tracking: Accurate tracking of time spent is enabled.",
-  "Pago Justo: Fair Payment.",
+  "Community Collaboration: can encourage collaboration within the blockchain community.",
+  "Develope: Developers can contribute to specific modules.",
+  "Maintenance: easier maintenance and testing of individual components.",
 ];
 
 export const newFeaturesss = [
-  "Modbloc integration with meeting platforms improves productivity by automatically tracking time in virtual meetings.",
-  "Provides an accurate record for billing and informed decision making.",
-  "Facilitates work schedule optimization by identifying meeting time patterns.",
+  "Flexibility and Customization: Users or developers can choose and replace specific modules based on their requirements.",
+  "Upgradability: Developers can upgrade specific modules without affecting the entire network, reducing the risk of disruptions.",
+  "Security: Modular blockchains can potentially enhance security by isolating different functions into separate modules.",
 ];
 
 export const insights = [

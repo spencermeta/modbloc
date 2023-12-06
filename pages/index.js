@@ -13,11 +13,11 @@ const Page = () => (
       <About />
     </div>
     <div className="relative">
-      <GetStarted img={seguridad} alt="seguridad" title={<>Security and Privacy</>} sub="Reservation" text={startingFeaturess} />
+      <GetStarted img={seguridad} alt="seguridad" title={<>Architecture,Interoperability and Scalability</>} sub="Framework" text={startingFeaturess} />
       <div className="gradient-03 z-0" />
       <WhatsNew />
       <div className="gradient-03 z-0" />
-      <GetStarted img={tiempo} alt="tiempo" title={<>Time Control and Payment</>} sub="Autonomy" text={startingFeatures} />
+      <GetStarted img={tiempo} alt="tiempo" title={<>Collaboration and Maintenance</>} sub="Autonomy" text={startingFeatures} />
     </div>
     <div className="relative">
       <Insights />

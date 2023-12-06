@@ -19,14 +19,7 @@ const About = () => (
     >
       <TypingText title="| What is Modbloc ?" textStyles="text-center" />
       <motion.p variants={fadeIn("up", "tween", 0.2, 1)} className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white">
-        <span className="font-extrabold text-white">Modbloc</span> is a platform based on{" "}
-        <span className="font-extrabold text-white">blockchain technology</span> that allows professionals from different industries, such as lawyers,
-          developers, private teachers, psychologists, and more,
-        <span className="font-extrabold text-white">to offer its services in a more flexible and transparent manner.</span>
-          Users can contract services and make payments securely through our platform. Our technology encrypts all
-          transactions, which guarantees the
-        <span className="font-extrabold text-white"> security </span>
-          of funds and the integrity of records.
+        A <span className="font-extrabold text-white">Modular blockchain</span> refers to a blockchain system that is designed with a modular architecture, allowing for flexibility, scalability, and ease of customization. The modular approach involves breaking down the blockchain system into independent modules or components, each serving a specific function. This design philosophy is intended to make the blockchain more adaptable to various use cases, scalable to different requirements, and easier to maintain and upgrade.
       </motion.p>
       <motion.div variants={fadeIn("up", "tween", 0.3, 1)} className="w-[18px] h-[28px] object-contain mt-[28px]">
         <Image src={arrow} alt="arrow" className="w-[18px] h-[28px] object-contain mt-[28px]" />
