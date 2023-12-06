@@ -16,7 +16,7 @@ export const exploreWorlds = [
     imgUrl: josue_fondo,
     imgAvatar: spencer,
     title: "Spencer su",
-    subtitle: "CEO of Ziyou",
+    subtitle: "CEO of Modbloc",
     explorerText:
       "With an outstanding track record in technological ventures, my experience focuses on the strategic synergy between web 2.0 and web 3.0. I bring proven skills in the integral management of innovative projects, facilitating the transition to new technological paradigms.",
   },
@@ -25,7 +25,7 @@ export const exploreWorlds = [
     imgUrl: josue_fondo,
     imgAvatar: "",
     title: "Tina Sun",
-    subtitle: "CMO of Ziyou",
+    subtitle: "CMO of Modbloc",
     explorerText:
       "With extensive experience in building strong brand images and developing communities, I have played an integral role in establishing and strengthening brand presence. My focus is on building meaningful connections with communities, driving engagement and loyalty over time.",
   },
@@ -53,7 +53,7 @@ export const startingFeatures = [
 ];
 
 export const newFeaturesss = [
-  "Ziyou integration with meeting platforms improves productivity by automatically tracking time in virtual meetings.",
+  "Modbloc integration with meeting platforms improves productivity by automatically tracking time in virtual meetings.",
   "Provides an accurate record for billing and informed decision making.",
   "Facilitates work schedule optimization by identifying meeting time patterns.",
 ];
@@ -69,7 +69,7 @@ export const insights = [
     imgUrl: ings2,
     title: "Education and Promotion",
     subtitle:
-      "Education and promotion of Ziyou in the region will play a crucial role in how many people benefit from the platform. An effective marketing and awareness strategy could attract more users.",
+      "Education and promotion of Modbloc in the region will play a crucial role in how many people benefit from the platform. An effective marketing and awareness strategy could attract more users.",
   },
   {
     imgUrl: ings3,
@@ -87,7 +87,7 @@ export const insights = [
     imgUrl: ings5,
     title: "Market Development",
     subtitle:
-      "The market for online services is steadily growing in Latin America, and the adoption of digital technologies has increased in the region in recent years. As more individuals and companies seek online services, the potential for Ziyou beneficiaries is expanding.",
+      "The market for online services is steadily growing in Latin America, and the adoption of digital technologies has increased in the region in recent years. As more individuals and companies seek online services, the potential for Modbloc beneficiaries is expanding.",
   },
   // {
   //   imgUrl: ings6,
@@ -99,13 +99,13 @@ export const insights = [
   //   imgUrl: ings7,
   //   title: "Flexibilidad en el Pago",
   //   subtitle:
-  //     "Ziyou permite a los clientes pagar por servicios de manera más precisa, lo que beneficia tanto a los proveedores como a los clientes al evitar malentendidos y disputas sobre el tiempo invertido.",
+  //     "Modbloc permite a los clientes pagar por servicios de manera más precisa, lo que beneficia tanto a los proveedores como a los clientes al evitar malentendidos y disputas sobre el tiempo invertido.",
   // },
   {
     imgUrl: ings8,
     title: "Broad Scope and Diversity of Services",
     subtitle:
-      "Ziyou has the potential to encompass a wide variety of professional services, from lawyers to developers and more. This broadens the scope of our platform.",
+      "Modbloc has the potential to encompass a wide variety of professional services, from lawyers to developers and more. This broadens the scope of our platform.",
   },
 ];
 
